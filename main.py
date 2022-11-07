@@ -1,29 +1,32 @@
+import webbrowser
 from PIL import ImageGrab
 import pyautogui
 from time import sleep
 
 
 def main():
-    # wait for 5 seconds to load it
+    # Go to the below website
+    webbrowser.open_new("https://elgoog.im/t-rex/")
+    # wait for 5 seconds to the website it
     sleep(5)
-    # Start the game by pressing space
-    pyautogui.press("up")
+    # Start the game by pressing up key
+    press("up")
 
     on = True
     while on:
         # Get full screen as an image
         screen = ImageGrab.grab()
 
-        # Few pixels in front of dinosaur's hands
-        hands_pixel_color1 = screen.getpixel(xy=(1310, 462))
-        hands_pixel_color2 = screen.getpixel(xy=(1310, 465))
-        hands_pixel_color3 = screen.getpixel(xy=(1310, 467))
-        hands_pixel_color4 = screen.getpixel(xy=(1310, 469))
-        hands_pixel_color5 = screen.getpixel(xy=(1310, 472))
-        hands_pixel_color4 = screen.getpixel(xy=(1310, 475))
+        # Check for black pixel in between 1270 pixel in 1287
+        for x in range(1270, 1287):
+            # If there is a black pixel, press up key in keyboard
+            if screen.getpixel((x, 480)) == (83, 83, 83):
+                press("up")
+                break
 
-        if hands_pixel_color1 == (83, 83, 83) or hands_pixel_color2 == (83, 83, 83) or hands_pixel_color3 == (83, 83, 83) or hands_pixel_color4 == (83, 83, 83):
-            pyautogui.press("up")
+
+def press(key):
+    pyautogui.press(key)
 
 
 main()
