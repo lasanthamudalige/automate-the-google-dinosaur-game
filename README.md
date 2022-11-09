@@ -2,7 +2,7 @@
 
 <img src="https://user-images.githubusercontent.com/91461938/200728195-af268719-070b-4eaf-8307-f2d5bce36641.png">
 <ul>
-  <li>This program automatically press up key if there is an obstacle Google dinosaur game</li>
+  <li>This program automatically press up key if selected area detect black pixel in Google dinosaur game</li>
  </ul>
  
  <h2>Preview</h2>
