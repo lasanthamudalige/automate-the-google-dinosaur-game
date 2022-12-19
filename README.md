@@ -9,7 +9,8 @@ Automated google dinosaur game using [Python](https://www.python.org/), [Pillow]
 * [Usage](#usage)
 
 ## General info
-Using start button user can start to type top paragraph and after the countdown it will show how many words and characters user typed. 
+
+This program will detect a line of pixels on the screen and if they change the color to black the dinosaur will jump automatically. 
 
 ## Technologies
 Project is created with:
@@ -34,6 +35,8 @@ $ pip install -r requirements.txt
 
 
 ## Usage
+
+**Before running you might have to adjust pixel location according to your screen**
 
 To run this project in Linux/Unix:
 
