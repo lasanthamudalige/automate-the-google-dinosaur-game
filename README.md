@@ -1,9 +1,6 @@
 # Automated Google Dinosaur
 
-Automated google dinosaur game using pillow and pyautogui
-
-
-Type speed testing program using [Python](https://www.python.org/) and [Pillow](https://python-pillow.org/) library.
+Automated google dinosaur game using [Python](https://www.python.org/), [Pillow](https://python-pillow.org/) and  [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/).
 
 ## Table of contents
 * [General info](#general-info)
@@ -26,10 +23,10 @@ From your command line run:
 
 ```
 # Clone this repository
-$ git clone https://github.com/lasanthamudalige/automate-the-google-dinosaur-game.git
+$ git clone https://github.com/lasanthamudalige/automated-google-dinosaur.git
 
 # Go into the repository
-$ cd image-watermarking-desktop-app/
+$ cd automated-google-dinosaur/
 
 # To install all dependencies
 $ pip install -r requirements.txt
@@ -51,14 +48,4 @@ $ python main.py
 ```
 
 ## License 
-This project is open source and available under the [MIT License](https://github.com/lasanthamudalige/automate-github-repo-creation/blob/main/LICENSE).
-
-## Description:
-
-By using dotted line on the screen if a pixel in that line change from white to black this program automatically press up key if selected area detect black pixels on the screen.
-
-![200728195-af268719-070b-4eaf-8307-f2d5bce36641](https://user-images.githubusercontent.com/91461938/208299606-aff06435-65e9-4f58-9256-21bc296f1a7c.png)
-
-### Preview:
- 
-<img src="https://user-images.githubusercontent.com/91461938/200463604-01fee1eb-a077-4295-a4cd-27adf99defdf.gif"> 
+This project is open source and available under the [MIT License](https://github.com/lasanthamudalige/automated-google-dinosaur/blob/main/license)
