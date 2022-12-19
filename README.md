@@ -1,4 +1,4 @@
-# Automated Google dinosaur game
+# Automated Google Dinosaur
 
 Automated google dinosaur game using pillow and pyautogui
 
